@@ -1,0 +1,9 @@
+data:
+  raw_path: "./data/raw"
+  processed_path: "./data/processed"
+
+models:
+  path: "./models"
+
+forecast:
+  method: "prophet"   # "prophet" or "arima"
