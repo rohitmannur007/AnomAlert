@@ -227,23 +227,5 @@ git remote add origin https://github.com/rohitmannur007/AnomAlert.git
 git push -u origin main
 ```
 
----
-
-# Contact / Support
-
-If you run into environment-specific issues (macOS M1/M2, missing build tools, or Prophet install problems), include:
-
-* Python version (e.g., `python --version`)
-* OS and architecture (e.g., macOS 13.4 on arm64)
-* Exact error trace — and I’ll help you debug.
-
----
-
-## Final note
-
-This project is designed to be modular and educational: you can replace the synthetic data loader with your KDD dataset, swap the MLP autoencoder for a deep autoencoder (TensorFlow/PyTorch), or add a production API and CI pipeline later. If you want, I can now produce:
-
-* a Dockerfile to containerize the app, or
-* a GitHub Actions workflow that trains and validates models on push.
 
 Which would you like next?
